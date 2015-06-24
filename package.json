@@ -1,16 +1,17 @@
 {
-  "name": "babel-mocha-seed",
+  "name": "babel-karma-seed",
   "version": "0.0.1",
   "description": "seed a simple babel+mocha project",
-  "main": "index.js",
-  "dependencies": {
-    "karma-babel-preprocessor": "^5.2.1"
-  },
+  "main": "src/index.js",
+  "dependencies": {},
   "devDependencies": {
-    "karma-babel-preprocessor": "^5.2.1"
+    "babel": "^5.6.4",
+    "chai": "^3.0.0"
   },
   "scripts": {
-    "test": "mocha"
+    "index": "node ./src/",
+    "test": "mocha --require mocha.babel.setup --watch",
+    "test-debug": "mocha --require mocha.babel.setup --watch --debug-br"
   },
   "repository": {
     "type": "git",
