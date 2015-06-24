@@ -10,8 +10,8 @@
   },
   "scripts": {
     "index": "node ./src/",
-    "test": "mocha --require mocha.babel.setup --watch",
-    "test-debug": "mocha --require mocha.babel.setup --watch --debug-br"
+    "test": "mocha --require babel.conf --watch",
+    "test-debug": "mocha --require babel.conf --watch --debug-br"
   },
   "repository": {
     "type": "git",
