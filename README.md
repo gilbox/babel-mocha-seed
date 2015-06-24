@@ -15,3 +15,7 @@ Run the application:
 Run mocha:
 
     npm test
+
+## config
+
+Configure babel by editing `babel.conf.js`
