@@ -1,0 +1,30 @@
+{
+  "name": "babel-mocha-seed",
+  "version": "0.0.1",
+  "description": "seed a simple babel+mocha project",
+  "main": "index.js",
+  "dependencies": {
+    "karma-babel-preprocessor": "^5.2.1"
+  },
+  "devDependencies": {
+    "karma-babel-preprocessor": "^5.2.1"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gilbox/babel-mocha-seed.git"
+  },
+  "keywords": [
+    "babel",
+    "mocha",
+    "seed"
+  ],
+  "author": "Gil Birman <birmangil@gmail.com> (http://gilbox.me/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gilbox/babel-mocha-seed/issues"
+  },
+  "homepage": "https://github.com/gilbox/babel-mocha-seed#readme"
+}
